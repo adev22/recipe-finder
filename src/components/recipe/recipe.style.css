@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.recipe {
+  border-radius: 10px;
+  box-shadow: 8px 5px 5px 2px #9e9c9c26;
+  margin: 20px;
+  padding: 20px 0;
+  background: whitesmoke;
+  width: 400px;
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.image img {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  margin: 15px 0 0 0;
+  letter-spacing: 4px;
+}
+
+.ingredients-div {
+  text-align: left;
+}
+
+.ingredients-div p {
+  padding: 20px 0 0 20px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.ingredients {
+  list-style-type: none;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+}
+
+.ingredient {
+  margin: 10px 0;
+}
+
+.ingredients i {
+  color: red;
+}
